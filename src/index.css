@@ -1,0 +1,787 @@
+@font-face {
+  font-family: roboto;
+  src: url(/robotocondensed/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+  font-family: robotoBold;
+  src: url(/robotocondensed/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: robotoLight;
+  src: url(/robotocondensed/RobotoCondensed-Light.ttf);
+}
+body {
+  margin: 0;
+  font-family: roboto;
+}
+.main {
+  background-image: url(/public/img/back_logo.svg);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: auto;
+  padding: 0px;
+}
+/*1 nav*/
+.sviaz {
+  display: block;
+}
+.lng-number_text {
+  margin: 0px;
+}
+.local {
+  background-color: #22303A;
+  border-radius: 10px;
+  color: white;
+}
+.local:hover {
+  color: white;
+}
+.change-lng {
+  background-color: #22303A;
+  color: white;
+  height: 40px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+.nav_links a {
+  font-size: larger;
+  color: black;
+}
+/*1 nav*/
+/*1 block*/
+.main_block .container {
+  background-image: url(/public/img/main_image.png);
+  padding: 61px;
+  text-align: center;
+  border-radius: 30px;
+}
+.main_block h1{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: roboto;
+}
+.main_block h5 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: roboto;
+  font-style: normal;
+}
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_block button {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: large;
+}
+.main_block button:hover {
+  background-color: #3A688A;
+  color: white;
+}
+
+.second_main_block img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.second_main_block .col {
+  padding: 0;
+  text-align: center;
+}
+/*1 block end*/
+/*2 block наши преимущество*/
+.first_part p {
+  font-family: roboto;
+}
+.second_part p{
+  font-family:  roboto;
+}
+.first_part {
+  text-align: center;
+  margin-top: 100px;
+}
+.first_part p {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.first_part h1 {
+  margin-top: 30px;
+}
+.second_part {
+  text-align: center;
+  margin-top: 60px;
+}
+.second_part .row {
+  margin: 0px;
+}
+.second_part .col1 {
+  background-color: white;
+  width: 24%;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+  color: black;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  border: 2px solid;
+}
+.icon_info {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.second_part h6 {
+  text-align: left;
+  margin-top: 20px;
+}
+.second_part p {
+  text-align: left;
+  margin-top: 10px;
+  font-family: robotoLight;
+}
+/*2 block наши преимущество end*/
+/*info block 2*/
+.info_block2 .col {
+  background-color: white;
+  width: 48%;
+  margin-left: 18px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid;
+}
+.col_option h2{
+  margin-top: 100px;
+}
+.info_block2 {
+  margin-top: 30px;
+}
+.info_block2 .col_img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*info block2 end*/
+/*3 block наши туры*/
+.our_tours h3 {
+  margin-top: 40px;
+}
+.our_tours p {
+  font-family: robotoLight;
+}
+#min_block1 {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-right: 25px;
+  width: 48%;
+  height: auto;
+  border: 2px solid;
+}
+#min_block2 {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 48%;
+  height: auto;
+  border: 2px solid;
+}
+#min_blocks_12 {
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  border: 2px solid;
+}
+.blocks {
+  margin-top: 30px;
+}
+.big_logo {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+
+}
+.our_tours button {
+  background-color: #22303A;
+  color: white;
+  border: none;
+}
+.our_tours button:hover {
+  background-color: #22303A;
+  border: none;
+}
+/*3 block наши туры end*/
+/*4 block пакет туров*/
+.texts_tours li {
+  display: inline;
+  margin: 0;
+}
+.texts_tours {
+  margin: 0px;
+  padding: 0px;
+}
+.paket_tours .col {
+  margin-top: 20px;
+}
+#pakets1 {
+  width: 31%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: 5px solid transparent;
+  /*border-image: 
+    linear-gradient(to left top, #adf2f7 10%, transparent 30%, transparent 70%, #adf2f7 90%);
+  border-image-slice: 1;*/
+  box-shadow: 10px 7px 5px #adf2f7;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px;
+  padding: 10px;
+}#pakets2 {
+  width: 31%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: 5px solid transparent;
+  /*border-image: 
+    linear-gradient(to left top, #2DA771 10%, transparent 30%, transparent 70%, #2DA771 90%);
+  border-image-slice: 1;*/
+  box-shadow: 10px 7px 5px #2da771;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px;
+  padding: 10px;
+}#pakets3 {
+  width: 31%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: 5px solid transparent;
+  /*border-image: 
+    linear-gradient(to left top, #9747FF 10%, transparent 30%, transparent 70%, #9747FF 90%);
+  border-image-slice: 1;*/
+  box-shadow: 10px 7px 5px #9747ff;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px;
+  padding: 10px;
+}
+#pakets1 h3, #pakets2 h3, #pakets3 h3 {
+  margin-top: 40px;
+}
+.text_left, .text_right {
+  float: left;
+  width: 50%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.icon_tours {
+  width: auto;
+}
+.text_right {
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+.paket_tours_text {
+  margin-top: 50px;
+}
+.paket_tours button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #22303A;
+  border:none;
+}
+.paket_tours button:hover {
+  background-color:#22303A;
+}
+#pakets p {
+  text-align: right;
+}
+.hotel_stars {
+  float: right;
+}
+.price {
+  text-align: right;
+  font-size: 20px;
+}
+/*4 block пакет туров*/
+
+/*block пакет туров карусель*/
+
+.paket_tours_carousel button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #22303A;
+  border:none;
+}
+.paket_tours_carousel button:hover {
+  background-color:#22303A;
+}
+.text_left {
+  text-align: left;
+}
+.paket_tours_carousel {
+  display: none;
+}
+.wrapper2 {
+  max-height: 570px;
+  display: flex;
+  overflow: auto;
+}
+.wrapper2::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper2 .item2 {
+  min-width: 150px;
+  height: 500px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 150px;
+}
+/*block пакет туров карусель end*/
+
+
+/*5 block гиды*/
+.gids h3 {
+  margin-top: 50px;
+}
+.info_gids {
+  padding-right: 500px;
+}
+.gids .card {
+  border-radius: 20px;
+}
+.stars {
+  margin-bottom: 10px;
+}
+.wrapper {
+  max-height: 770px;
+  display: flex;
+  overflow: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .item {
+  min-width: 150px;
+  height: 700px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 150px;
+}
+/*5 block гиды*/
+/*application soon*/
+.app .container{
+  background-color: #D6EDFF;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+.texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.texts h1,p {
+  width: 100%;
+  height: auto;
+}
+.iphones img {
+  margin-top: 55px;
+  width: 70%;
+  height: 450px;
+}
+.app button {
+  background-color: #22303A;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+}
+.iphones {
+  text-align: center;
+}
+.iphones2 {
+  display: none;
+}
+/*application soon*/
+/*6 block отзывы*/
+.feedbacks .feedbacksmin{
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.button_next {
+  background-color: aqua;
+}/*6 block end отзывы*/
+/*7 block новости*/
+.news {
+  margin-top: 50px;
+}
+.button_news {
+  text-align: right;
+}
+.news_row .col {
+  margin-top: 25px;
+}
+.news_row h5 {
+  width: 100%;
+  font-size:medium;
+}
+.news_row p {
+  font-family: roboto;
+}
+/*7 block end новости*/
+/*8 block вопросы и ответы*/
+.qua_ans {
+  margin-top: 50px;
+}
+.accordion {
+  width: 100%;
+}
+.text_in_qua h2 {
+  width: 100%;
+}
+/*8 block end вопросы и ответы*/
+/*9 block footer*/
+.logo_for_footer {
+  width: 150px;
+  height: 60px;
+  margin-top: 30px;
+}
+.footer {
+  background-color: white;
+}
+.texts_infoot {
+  margin-top: 30px;
+}
+.texts_infoot img {
+  width: 150px;
+  height: 50px;
+}
+.map {
+  margin-top: 50px;
+}
+.soc_icons {
+  width: 40px;
+  height: 40px;
+}
+.map button {
+  background-color: #22303A;
+}
+.text_office {
+  margin-top: 30px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+#map {
+  width: 100%;
+  height: auto;
+}
+/*9 block end footer*/
+/*пакет туров страница*/
+.paket_tours_page .col {
+  background-color: white;
+}
+.paket_tours_page h3 {
+  margin-top: 50px;
+}
+header {
+  background-color: white;
+}
+/*пакет туров страница end*/
+/*form*/
+.form2 {
+  background-image: url(/public/img/form_background.png);
+  border-radius: 30px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  width: 45%;
+}
+.form2 h1{
+  color: white;
+  margin-top: 200px;
+}
+.form1 {
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border: 2px solid;
+  width: 45%;
+  margin-right: 10px;
+  text-align: center;
+}
+.form {
+  margin-top: 30px;
+}
+.form input, .submit_boot {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black
+}
+#submit {
+  background-color: #22303A;
+  color: white;
+}
+.bottom_text {
+  padding-top: 50px;
+}
+.bottom_text p {
+  margin: 0px;
+  text-decoration: underline;
+  color: #3278E1;
+}
+/*form end*/
+
+/*Adaptive*/
+@media (max-width: 1400px) {
+  #big_logo {
+    display: none;
+    width: 0px;
+  }
+  .left_part {
+    width: 100%;
+  }
+  #min_block2 {
+    margin-left: 15px;
+  }
+  #pakets {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+ 
+  .form1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  #min_block2 {
+    margin-left: 5px;
+  }
+  .gids h3 {
+    text-align: center;
+  }
+  .info_gids {
+    text-align: center;
+    padding: 0px
+  }
+  #pakets h5 {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 15px;
+  }
+  .second_part .col1 {
+    width: 48%;
+  }
+}
+@media (max-width: 990px) {
+  #min_block1 {
+    margin-right: 0px;
+  }
+  #min_block2 {
+    margin-left: 15px;
+  }
+  .second_part .col {
+    padding-left: 15px;
+  }
+  .paket_tours p{
+    font-size: 14px;
+  }
+  .paket_tours h5 {
+    font-size: 14px;
+  }
+  .paket_tours_text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #pakets1, #pakets2, #pakets3 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .info_block2 .col {
+    width: 47%;
+  }
+  .info_block2 .col_option h2 {
+    margin-top: 70px;
+  }
+  .iphones img {
+    width: 90%;
+    height: 350px;
+  }
+  .form2 {
+    display: none;
+    width: 0px;
+  }
+
+}
+@media (max-width: 770px) {
+  .first_part p {
+    padding: 0px;
+  }
+  .second_part .col {
+    padding-left: 10px;
+  }
+  .second_main_block {
+    display: none;
+  }
+  #pakets {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .second_part .col1 {
+    width: 47%;
+  }
+  #pakets1, #pakets2, #pakets3 {
+    width: 90%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .app button {
+    width: 70%;
+  }
+  .bottom_text p {
+    font-size: 10px;
+  }
+  .info_block2 .col{
+    width: 46%;
+  }
+  .info_block2 .col_option h2 {
+    margin-top: 30px;
+  }
+  .paket_tours_carousel {
+    display: block;
+  }
+  .paket_tours_none {
+    display: none;
+  }
+  .iphones img {
+    height: 250px;
+  }
+
+}
+
+@media (max-width: 501px) {
+  .iphones {
+    display: none;
+  }
+  .iphones2 {
+    display: block;
+    padding: 0px;
+    height: 60%;
+  }
+  .iphones2 img {
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  .app .container {
+    padding-top: 50px;
+  }
+  .app .container {
+    padding-bottom: 0px;
+  }
+  .app .container {
+    text-align: center;
+  }
+  .text_left, .text_right {
+    font-size: large;
+  }
+  .second_part .col1 {
+    width: 45%;
+    padding: 5px;
+  }
+  .second_part .col1 p {
+    display: none;
+  }
+  .second_part .col1 h6 {
+    text-align: center;
+  }
+  .info_block2 .col {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .info_block2 .col_option h2 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 550px) {
+  #submit {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 374px) {
+  #min_block1 {
+    width: 100%;
+  }
+  #min_block2 {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+/*Adaptive end*/
+
+/*Animation*/
+#main_image {
+  transition: 1s;
+}
+#main_image:hover {
+  transform: scale(1.1);
+  transition: 1s; 
+}
+.with-border-gradient {
+  transition: 1s;
+}
+.with-border-gradient:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.wrapper .card {
+  transition: 1s;
+}
+.wrapper .card:hover {
+  transform: scale(1.1);
+  transition: 1s; 
+}
+/*Animation end*/

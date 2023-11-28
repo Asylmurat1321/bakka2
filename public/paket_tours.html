@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Пакет Туров</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/src/index.css">
+    <style>
+        body {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+          <!--logo-->
+          <a class="navbar-brand fs-20"  href="#"><img src="img/logo.png" alt="" width="146.65px" height="46.37px"></a>
+          <!--logo-->
+          <!--Toogle botton-->
+          <button class="navbar-toggler shodow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Toogle botton-->
+          <!--slide bar-->
+          <div class="slidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <!--Slider header-->
+            <div class="offcanvas-header text-white border-bottom">
+              <a class="navbar-brand fs-20"  href="#"><img src="img/logo.png" alt="" width="146.65px" height="46.37px"></a>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+          <!--Sidevar body-->
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Туры</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Хадж</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Умра</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Партнеры</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end  pe-3">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">каз</a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="#">Казахский</a></li>
+                              <li><a class="dropdown-item" href="#">Руский</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+                  <ul class="navbar-nav justify-content-end">
+                    <p>Свяжитесь с нами <br><img src="img/phone_icon.svg" alt=""> +7 (707) 362-11-56</p>                
+                  </ul>
+              </div>   
+          </div>
+        </div>
+      </nav>
+      </header>
+      <!--Nav bar-->
+      <!--Пакет туров-->
+      <div class="paket_tours_page">
+        <div class="container">
+            <h3>Пакет туров</h3>
+            <p>Наборы туров, которые можно приобрести со скидкойили в качестве комплексного предложения.</p>
+            <div class="row">
+                <div class="col">
+                    <h4>Easy</h4>
+                    <h6>1 июня - 15 июля 2024 </h6>
+                </div>
+                <div class="col">
+                    <h4>Standart</h4>
+                    <p>1 июня - 30 июля 2024 </p>
+                </div>
+                <div class="col">
+                    <h4>Premium</h4>
+                    <p>1 июня - 30 июля 2024 </p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!--Пакет туров end-->
+      <!--footer
+      <div class="footer"> 
+        <div class="container">
+           <div class="row">
+            <div class="col-5">
+              <img class="logo_for_footer" src="img/logo.png" alt="">
+              <p>© Copyright 2023 BAKKA TRAVEL</p>
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-3 texts_infoot">
+                  <h4>Компания</h4>
+                  <a href="#">О нас</a><br>
+                  <a href="#">Отзывы</a><br>
+                  <a href="#">Партнеры</a>
+                </div>
+                <div class="col-3 texts_infoot">
+                  <h4>Компания</h4>
+                  <a href="#">О нас</a><br>
+                  <a href="#">Отзывы</a><br>
+                  <a href="#">Партнеры</a>
+                </div>
+                <div class="col-6 texts_infoot">
+                  <h4>Скачать приложение</h4>
+                  <img src="img/for_ios.png" alt="">
+                  <img src="img/for_android.png" alt="">
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="row map">
+              <div class="col-5">
+                <div class="row">
+                  <div class="col-5">
+                    <h4>Контакты</h4>
+                    <p><img src="img/phone_icon.svg" alt="">+7 (707) 362-11-56</p>
+                    <a href=""><img class="soc_icons" src="img/insta_icon.png" alt=""></a>
+                    <a href=""><img class="soc_icons" src="img/telega_icon.png" alt=""></a>
+                    <a href=""><img class="soc_icons" src="img/wp_icon.png" alt=""></a>
+                    <div class="text_office">
+                      <h4>Офис</h4>
+                      <p><img src="img/location_icon.svg" alt="">ул. Абая 37</p>
+                      <button class="btn btn btn-primary">Открыть <img src="img/2GIS_logo.svg" alt=""></button>
+                    </div>
+                  </div>
+                  <div class="col-7"></div> 
+                </div>
+              </div>
+              <div class="col-7">
+                <div id="map" style="width:700px; height:400px"></div>
+              </div>
+           </div>
+        </div>
+      </div>
+    footer end-->
+</body>
+</html>
