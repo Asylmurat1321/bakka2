@@ -1,18 +1,18 @@
 @font-face {
-  font-family: roboto;
-  src: url(/robotocondensed/RobotoCondensed-Regular.ttf);
+  font-family: opensans;
+  src: url(/open_sans/OpenSans-Regular.ttf);
 }
 @font-face {
-  font-family: robotoBold;
-  src: url(/robotocondensed/RobotoCondensed-Bold.ttf);
+  font-family: opensans_bold;
+  src: url(/open_sans/OpenSans-Bold.ttf);
 }
 @font-face {
-  font-family: robotoLight;
-  src: url(/robotocondensed/RobotoCondensed-Light.ttf);
+  font-family: opnsans_light;
+  src: url(/open_sans/OpenSans-Light.ttf);
 }
 body {
   margin: 0;
-  font-family: roboto;
+  font-family: opensans;
 }
 .main {
   background-image: url(/public/img/back_logo.svg);
@@ -44,10 +44,23 @@ body {
   margin-right: 10px;
   margin-top: 5px;
   border-radius: 10px;
+  width: 80px;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
 }
 .nav_links a {
   font-size: larger;
   color: black;
+  font-family: opensans_bold;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+.nav_links a:hover {
+  color: #D8AE5F;
+}
+.phone_number_bai {
+  font-family: opensans_bold;
 }
 /*1 nav*/
 /*1 block*/
@@ -61,13 +74,13 @@ body {
   color: white;
   text-align: center;
   margin-top: 20px;
-  font-family: roboto;
+  font-family: opensans_bold;
 }
 .main_block h5 {
   color: white;
   text-align: center;
   margin-top: 20px;
-  font-family: roboto;
+  font-family: opensans;
   font-style: normal;
 }
 .logo2 {
@@ -86,7 +99,7 @@ body {
   font-size: large;
 }
 .main_block button:hover {
-  background-color: #3A688A;
+  background-color: #D8AE5F;
   color: white;
 }
 
@@ -104,10 +117,14 @@ body {
 /*1 block end*/
 /*2 block наши преимущество*/
 .first_part p {
-  font-family: roboto;
+  font-family: opensans;
 }
 .second_part p{
-  font-family:  roboto;
+  font-family:  opensans;
+}
+.second_part h3 {
+  text-align: left;
+  font-family: opensans_bold;
 }
 .first_part {
   text-align: center;
@@ -139,7 +156,8 @@ body {
   padding-left: 35px;
   padding-right: 30px;
   padding-bottom: 20px;
-  border: 2px solid;
+  border: 4px solid #D8AE5F;
+  background-color: #27698D;
 }
 .icon_info {
   width: 40px;
@@ -149,13 +167,37 @@ body {
 .second_part h6 {
   text-align: left;
   margin-top: 20px;
+  font-family: opensans_bold;
+  color: #D8AE5F;
 }
 .second_part p {
   text-align: left;
   margin-top: 10px;
-  font-family: robotoLight;
+  font-family: opensans;
+  font-size: 14px;
+  color: white;
 }
 /*2 block наши преимущество end*/
+/*info block*/
+
+.info_block .container{
+  text-align: center;
+}
+.info_block_comp img {
+  width: 20%;
+  height: 20%;
+  margin-top: 50px;
+}
+.info_block_comp h1 {
+  margin-top: 20px;
+  font-family: opensans_bold;
+}
+.info_block_comp p {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/*info block end*/
 /*info block 2*/
 .info_block2 .col {
   background-color: white;
@@ -163,7 +205,7 @@ body {
   margin-left: 18px;
   border-radius: 30px;
   text-align: center;
-  border: 2px solid;
+  border: 1px solid;
 }
 .col_option h2{
   margin-top: 100px;
@@ -180,12 +222,19 @@ body {
 /*3 block наши туры*/
 .our_tours h3 {
   margin-top: 40px;
+  font-family: opensans_bold;
+}
+.our_tours h6 {
+  font-family: opensans_bold;
+  color:black;
+  margin-top: 5px;
 }
 .our_tours p {
-  font-family: robotoLight;
+  font-family: opensans;
+  font-size: 14px;
+  color: black;
 }
 #min_block1 {
-  background-color: white;
   margin-top: 5px;
   border-radius: 30px;
   padding-left: 30px;
@@ -194,10 +243,10 @@ body {
   margin-right: 25px;
   width: 48%;
   height: auto;
-  border: 2px solid;
+  border: 4px solid #D8AE5F;
+  background-color: white;
 }
 #min_block2 {
-  background-color: white;
   margin-top: 5px;
   border-radius: 30px;
   padding-left: 30px;
@@ -205,10 +254,10 @@ body {
   padding-top: 20px;
   width: 48%;
   height: auto;
-  border: 2px solid;
+  border: 4px solid #D8AE5F;
+  background-color: white;
 }
 #min_blocks_12 {
-  background-color: white;
   border-radius: 30px;
   margin-top: 20px;
   height: auto;
@@ -216,7 +265,8 @@ body {
   padding-right: 20px;
   padding-top: 30px;
   padding-bottom: 70px;
-  border: 2px solid;
+  border: 4px solid #D8AE5F;
+  background-color: white;
 }
 .blocks {
   margin-top: 30px;
@@ -230,14 +280,55 @@ body {
 .our_tours button {
   background-color: #22303A;
   color: white;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
 }
 .our_tours button:hover {
-  background-color: #22303A;
+  background-color: #D8AE5F;
   border: none;
+}
+#big_logo {
+  background-image: url(/public/img/form_background.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  width: 45%;
+  margin-left: 30px;
+  border: 4px solid #D8AE5F;
+}
+#big_logo h1{
+  color: white;
+  text-align: center;
+  margin-top: 240px;
 }
 /*3 block наши туры end*/
 /*4 block пакет туров*/
+.paket_tours button {
+  color: white;
+}
+.paket_tours h3 {
+  font-family: opensans_bold;
+  margin-bottom: 30px;
+}
+.paket_tours h5 {
+  font-family: opensans_bold;
+  width: 50%;
+}
+.paket_tours p {
+  width: 40%;
+}
+.paket_tours_carousel h5 {
+  font-family: opensans_bold;
+  font-size: 14px;
+  width: 40%;
+  height: 30px;
+}
+.paket_tours_carousel p {
+  font-size: 14px;
+  width: 50%;
+}
 .texts_tours li {
   display: inline;
   margin: 0;
@@ -294,6 +385,7 @@ body {
 }
 #pakets1 h3, #pakets2 h3, #pakets3 h3 {
   margin-top: 40px;
+  color: #D8AE5F;
 }
 .text_left, .text_right {
   float: left;
@@ -316,8 +408,12 @@ body {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #22303A;
+  background-color: #D8AE5F;
   border:none;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: opensans_bold;
+  font-size: 20px;
 }
 .paket_tours button:hover {
   background-color:#22303A;
@@ -331,17 +427,32 @@ body {
 .price {
   text-align: right;
   font-size: 20px;
+  width: 60%;
+  font-family: opensans_bold;
+}
+.price_text {
+  font-family: opensans_bold;
+  width: 40%;
 }
 /*4 block пакет туров*/
 
 /*block пакет туров карусель*/
 
+.paket_tours_carousel h3 {
+  font-family: opensans_bold;
+}
+
 .paket_tours_carousel button {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: #22303A;
+  background-color: #D8AE5F;
   border:none;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: opensans_bold;
 }
 .paket_tours_carousel button:hover {
   background-color:#22303A;
@@ -361,11 +472,15 @@ body {
   width: 0;
 }
 .wrapper2 .item2 {
-  min-width: 150px;
+  min-width: 200px;
   height: 500px;
   line-height: 30px;
   text-align: center;
   margin-right: 150px;
+}
+.item2 .card {
+  background: none;
+  border: none;
 }
 /*block пакет туров карусель end*/
 
@@ -373,12 +488,19 @@ body {
 /*5 block гиды*/
 .gids h3 {
   margin-top: 50px;
+  font-family: opensans_bold;
+}
+.gids h5 {
+  font-family: opensans_bold;
+  font-size: 18px;
 }
 .info_gids {
   padding-right: 500px;
 }
 .gids .card {
   border-radius: 20px;
+  background-color: #27698D;
+  color: white;
 }
 .stars {
   margin-bottom: 10px;
@@ -398,13 +520,17 @@ body {
   text-align: center;
   margin-right: 150px;
 }
+.img_gid {
+  border-radius: 20px;
+}
 /*5 block гиды*/
 /*application soon*/
 .app .container{
-  background-color: #D6EDFF;
+  background-color: #27698D;
   width: 100%;
   height: auto;
   border-radius: 30px;
+  color: white;
 }
 .texts {
   display: flex;
@@ -412,7 +538,12 @@ body {
   align-items: center;
   margin-left: 10px;
 }
-.texts h1,p {
+.texts h1 {
+  width: 100%;
+  height: auto;
+  font-family: opensans_bold;
+}
+.texts p {
   width: 100%;
   height: auto;
 }
@@ -422,12 +553,22 @@ body {
   height: 450px;
 }
 .app button {
-  background-color: #22303A;
   color: white;
   font-size: large;
   border-radius: 10px;
   padding: 10px;
-  width: 50%;
+  width: 30%;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  border: none;
+  transition: 1s;
+}
+.app button:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 .iphones {
   text-align: center;
@@ -461,7 +602,7 @@ body {
   font-size:medium;
 }
 .news_row p {
-  font-family: roboto;
+  font-family: opensans;
 }
 /*7 block end новости*/
 /*8 block вопросы и ответы*/
@@ -473,6 +614,14 @@ body {
 }
 .text_in_qua h2 {
   width: 100%;
+  font-family: opensans_bold;
+}
+.qua_text2 {
+  display: none;
+  font-family: opensans_bold;
+}
+.qua h2 {
+  font-family: opensans_bold;
 }
 /*8 block end вопросы и ответы*/
 /*9 block footer*/
@@ -500,6 +649,10 @@ body {
 }
 .map button {
   background-color: #22303A;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
 }
 .text_office {
   margin-top: 30px;
@@ -511,6 +664,12 @@ body {
 #map {
   width: 100%;
   height: auto;
+}
+.texts_infoot h4 {
+  font-family: opensans_bold;
+}
+.map h4 {
+  font-family: opensans_bold;
 }
 /*9 block end footer*/
 /*пакет туров страница*/
@@ -532,6 +691,18 @@ header {
   background-size: cover;
   text-align: center;
   width: 45%;
+}
+.form button{
+  background: none;
+  border: none;
+  color: black;
+  text-decoration: underline;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.form button:hover {
+  background: none;
+  color: black;
 }
 .form2 h1{
   color: white;
@@ -563,24 +734,20 @@ header {
 .bottom_text {
   padding-top: 50px;
 }
-.bottom_text p {
+.bottom_text a {
   margin: 0px;
   text-decoration: underline;
   color: #3278E1;
+}
+.form1 h2, .form1 label {
+  font-family: opensans_bold;
 }
 /*form end*/
 
 /*Adaptive*/
 @media (max-width: 1400px) {
-  #big_logo {
-    display: none;
-    width: 0px;
-  }
-  .left_part {
-    width: 100%;
-  }
-  #min_block2 {
-    margin-left: 15px;
+  #min_block1 {
+    margin-right: 15px;
   }
   #pakets {
     margin-left: 15px;
@@ -591,10 +758,17 @@ header {
     width: 100%;
     text-align: center;
   }
+  .paket_tours P {
+    width: 50%;
+  }
+  .paket_tours h5 {
+    font-size: 18px;
+    width: 40%;
+  }
 }
 @media (max-width: 1200px) {
   #min_block2 {
-    margin-left: 5px;
+    margin:0px;
   }
   .gids h3 {
     text-align: center;
@@ -607,13 +781,26 @@ header {
     font-size: 15px;
   }
   .price {
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: 5px;
+    width: 60%;
   }
   .second_part .col1 {
     width: 48%;
   }
+  .info_block p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 @media (max-width: 990px) {
+  #big_logo {
+    display: none;
+    width: 0px;
+  }
+  .left_part {
+    width: 100%;
+  }
   #min_block1 {
     margin-right: 0px;
   }
@@ -624,10 +811,12 @@ header {
     padding-left: 15px;
   }
   .paket_tours p{
-    font-size: 14px;
+    font-size: 12px;
+    width: 30%;
   }
   .paket_tours h5 {
     font-size: 14px;
+    width: 45%;
   }
   .paket_tours_text {
     text-align: center;
@@ -650,6 +839,24 @@ header {
   .form2 {
     display: none;
     width: 0px;
+  }
+  .info_block p {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .hotel_stars img{
+    width: 20%;
+    height: 20%;
+  }
+  .hotel_stars {
+    text-align: right;
+    width: 35%;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .price_text {
+    font-size: 18px;
   }
 
 }
@@ -696,6 +903,23 @@ header {
   .iphones img {
     height: 250px;
   }
+  .info_block p {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .qua_text2 {
+    display: block;
+    text-align: center;
+  }
+  .text_in_qua h2 {
+    display: none;
+  }
+  .qua {
+    width: 100%;
+  }
+  .price {
+    font-size: 17px;
+  }
 
 }
 
@@ -723,9 +947,6 @@ header {
   .app .container {
     text-align: center;
   }
-  .text_left, .text_right {
-    font-size: large;
-  }
   .second_part .col1 {
     width: 45%;
     padding: 5px;
@@ -744,6 +965,23 @@ header {
   .info_block2 .col_option h2 {
     margin-top: 20px;
   }
+  .info_block p {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .texts_infoot h4 {
+    font-size: 18px;
+  }
+  .google_map {
+    display: none;
+  } 
+  .without_map {
+    width: 100%;
+    text-align: center;
+  }
+  .p_foot {
+    margin-left: 140px;
+  }
 }
 @media (max-width: 550px) {
   #submit {
@@ -758,6 +996,10 @@ header {
     width: 100%;
     margin-left: 0px;
     margin-top: 20px;
+  }
+  .logo_for_footer {
+    width: 100px;
+    height: 40px;
   }
 }
 /*Adaptive end*/
