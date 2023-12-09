@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bakka Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+    <script src="https://kit.fontawesome.com/5fb0dfefe3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  </head>
+  <body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <!--logo-->
+        <a class="navbar-brand fs-20"  href="#"><img src="img/logo.svg" alt="" width="146.65px" height="46.37px"></a>
+        <!--logo-->
+        <!--Toogle botton-->
+        <button class="navbar-toggler shodow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Toogle botton-->
+        <!--slide bar-->
+        <div class="slidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!--Slider header-->
+          <div class="offcanvas-header text-white border-bottom">
+            <a class="navbar-brand fs-20"  href="#"><img src="img/logo.png" alt="" width="146.65px" height="46.37px"></a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <!--Sidevar body-->
+          <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#info_block">О нас</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tours">Туры</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tours">Хадж</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tours">Умра</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav justify-content-end  pe-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle local" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">рус</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="index.html">Казахский</a></li>
+                            <li><a class="dropdown-item" href="#">Руский</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav justify-content-end sviazm">
+                  <p>Свяжитесь с нами <br><img src="img/phone_icon.svg" alt=""> +7 (707) 362-11-56</p>                
+                </ul>
+            </div>   
+        </div>
+      </div>
+    </nav>
+    <!--Nav bar-->
+    <!--Main block-->
+    <div class="main">
+      <div data-wow-duration:30s class="main_block wow animate__animated animate__fadeIn">
+        <div class="container"> 
+          <img src="img/logo2.svg" alt="" class="logo2">
+          <h1>Туры в Мекку и Медину</h1> 
+          <h5>Соверши самое главное путешествие в своей жизнивместе с нами!</h5>
+          <button onclick="window.location.href = '#tours'">Подобрать тур</button>
+        </div>
+      </div>
+    <div class="second_main_block">
+      <div class="container">
+        <div class="row">
+          <div class="col wow animate__animated animate__fadeInLeft" id="main_image"><img src="img/main_image1.png" alt=""></div>
+          <div class="col wow animate__animated animate__fadeInUp" id="main_image"><img src="img/main_image2.png" alt=""></div>
+          <div class="col wow animate__animated animate__fadeInRight" id="main_image"><img src="img/main_image3.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <!--Main block end-->
+    <!--Info block-->
+    <div class="container" id="info_block">
+      <div class="info_block">
+        <div class="first_part">
+          <img class="wow animate__animated animate__fadeInLeftBig" src="img/single_logo.svg" alt="">
+          <h1 class="wow animate__animated animate__fadeInLeftBig">BAKKA TRAVEL</h1>
+          <P class="wow animate__animated animate__fadeInLeftBig">BAKKA Travel – один из ведущих туроператоров для мусульман по всему миру.С 2006 года мы успешно занимаемся организацией исламского туризма, паломничества для мусульман в Священную Мекку и Лучезарную Медину.</P>
+        </div>
+        <div class="second_part">
+          <h3 class="wow animate__animated animate__fadeInRightBig">Наши преимущества</h3>
+          <div class="container">
+            <div class="row">
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon1.svg" alt="">
+                <h6>Профессиональные гиды с Исламским образованием</h6>
+                <p>Наши гиды - это устазы и имамы с многолетним опытом</p>
+              </div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon2.svg" alt="">
+                <h6>Экскурсии по священным местам</h6>
+                <p>Город Ухуд, Сафа-Марва, Пещера Хира, Мечеть Пророка, Финиковый сад и многое другое.</p>
+              </div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon3.svg" alt="">
+                <h6>Помощь в совершении священных обрядов</h6>
+                <p>Мы поможем вам в совершении всех этапов Умры</p></div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon4.svg" alt="">
+                <h6>Отели и питание</h6>
+                <p>Лучшие отели в Мекке и Медине, ближайшие к мечети Аль-Харам, питание 2 раза в день.</p></div>
+            </div>
+            <div class="row">
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon5.svg" alt="">
+                <h6>Детальное обучение к Умре</h6>
+                <p>Наши гиды - это устазы и имамы с многолетним опытом</p></div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon6.svg" alt="">
+                <h6>Билеты в обе стороны</h6>
+                <p>Прямые рейсы в Медину и Джидду в самых удобных самолетах</p></div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon7.svg" alt="">
+                <h6>Встреча и проводы в аэропорту</h6>
+                <p>Наш гид встретит и проводит вас</p></div>
+              <div class="col wow animate__animated animate__zoomIn">
+                <img class="icon_info" src="img/Icon8.svg" alt="">
+                <h6>Отели и питание</h6>
+                <p>Оформление тур визы сроком на 1 год</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Info block end-->
+    <!--Our tours-->
+    <div class="our_tours">
+      <div class="container">
+        <h3 class="wow animate__animated animate__fadeInLeft">Наши туры</h3>
+          <div class="blocks">
+            <div class="row">
+              <div class="col-6 left_part">
+                  <div class="row">
+                    <div class="col-6 wow animate__animated animate__zoomIn" id="min_block1">
+                      <img class="icon_info" src="img/umra_icon.png" alt="">
+                      <h6>Умра</h6>
+                      <p>Малое паломничество в Мекку и Медину</p>
+                      <button class="btn btn-primary">Подробнее</button>
+                    </div>
+                    <div class="col-6 wow animate__animated animate__zoomIn" id="min_block2">
+                      <img class="icon_info" src="img/Kaaba.png" alt="">
+                      <h6>Хадж</h6>
+                      <p>Большое паломничество в Мекку и Медину</p>
+                      <button class="btn btn-primary">Подробнее</button>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 wow animate__animated animate__zoomIn" id="min_blocks_12">
+                      <img class="icon_info" src="img/Fire.png" alt="">
+                      <h6>Горящие туры</h6>
+                      <p>Самые выгодные предложения для путешествия  в Мекку и Медину на 2023 год</p>
+                      <button class="btn btn-primary">Смотреть все предложения</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 wow animate__animated animate__zoomIn" id="big_logo">
+                <img class="big_logo" src="img/big_photo.svg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Our tours end-->
+    <!--Paket tours-->
+    <div class="paket_tours" id="tours">
+      <div class="container">
+        <h4 class="paket_tours_text animate__animated animate__fadeInLeft">Пакет туров</h4>
+          <div class="row">
+              <div class="with-border-gradient wow animate__animated animate__slideInUp" id="pakets">
+                    <h3>Easy</h3>
+                    <hr>
+                    <h5 class="text_left"><img src="img/calendar.svg" alt="">Длительность</h5>
+                    <p class="text_right">20 дней</p>
+                    <div style="clear: left;"></div>
+                    <h5 class="text_left"><img src="img/plane.svg" alt="">Направление</h5>
+                    <p class="text_right">Алматы - Медина</p>
+                    <div style="clear: left;"></div>
+                    <h5 class="text_left"><img src="img/location.svg" alt="">До мечети Аль-Харам</h5>
+                    <p class="text_right">4 км</p>
+                    <div style="clear: left;"></div>
+                    <h5 class="text_left"><img src="img/food.svg" alt="">Питание</h5>
+                    <p class="text_right">Буфет</p>
+                    <div style="clear: left;"></div>
+                    <h5 class="text_left"><img src="img/hotel.svg" alt="">Отель</h5>
+                    <div class="hotel_stars">
+                    <img src="img/Star.svg" alt="">
+                    <img src="img/Star.svg" alt="">
+                    <img src="img/Star.svg" alt="">
+                    </div>
+                    <div style="clear: left;"></div>
+                    <hr>
+                    <h4 class="text_left">Цена:</h4>
+                    <h4 class="text_right price">400 $ | 230.000 ₸</h4>
+                    <div style="clear: left;"></div>
+                    <button class="btn btn-primary" onclick="window.location.href = '#form'">Забронировать</button>
+            </div>
+            <div class="with-border-gradient wow animate__animated animate__slideInUp" id="pakets">
+              <h3>Standard</h3>
+              <hr>
+              <h5 class="text_left"><img src="img/calendar.svg" alt="">Длительность</h5>
+              <p class="text_right">20 дней</p>
+              <div style="clear: left;"></div>
+              <h5 class="text_left"><img src="img/plane.svg" alt="">Направление</h5>
+              <p class="text_right">Алматы - Медина</p>
+              <div style="clear: left;"></div>
+              <h5 class="text_left"><img src="img/location.svg" alt="">До мечети Аль-Харам</h5>
+              <p class="text_right">4 км</p>
+              <div style="clear: left;"></div>
+              <h5 class="text_left"><img src="img/food.svg" alt="">Питание</h5>
+              <p class="text_right">Буфет</p>
+              <div style="clear: left;"></div>
+              <h5 class="text_left"><img src="img/hotel.svg" alt="">Отель</h5>
+              <div class="hotel_stars">
+              <img src="img/Star.svg" alt="">
+              <img src="img/Star.svg" alt="">
+              <img src="img/Star.svg" alt="">
+              </div>
+              <div style="clear: left;"></div>
+              <hr>
+              <h4 class="text_left">Цена:</h4>
+              <h4 class="text_right price">400 $ | 230.000 ₸</h4>
+              <div style="clear: left;"></div>
+              <button class="btn btn-primary" onclick="window.location.href = '#form'">Забронировать</button>
+        </div>
+        <div class="with-border-gradient wow animate__animated animate__slideInUp" id="pakets">
+          <h3>Premium</h3>
+          <hr>
+          <h5 class="text_left"><img src="img/calendar.svg" alt="">Длительность</h5>
+          <p class="text_right">20 дней</p>
+          <div style="clear: left;"></div>
+          <h5 class="text_left"><img src="img/plane.svg" alt="">Направление</h5>
+          <p class="text_right">Алматы - Медина</p>
+          <div style="clear: left;"></div>
+          <h5 class="text_left"><img src="img/location.svg" alt="">До мечети Аль-Харам</h5>
+          <p class="text_right">4 км</p>
+          <div style="clear: left;"></div>
+          <h5 class="text_left"><img src="img/food.svg" alt="">Питание</h5>
+          <p class="text_right">Буфет</p>
+          <div style="clear: left;"></div>
+          <h5 class="text_left"><img src="img/hotel.svg" alt="">Отель</h5>
+          <div class="hotel_stars">
+          <img src="img/Star.svg" alt="">
+          <img src="img/Star.svg" alt="">
+          <img src="img/Star.svg" alt="">
+          </div>
+          <div style="clear: left;"></div>
+          <hr>
+          <h4 class="text_left">Цена:</h4>
+          <h4 class="text_right price">400 $ | 230.000 ₸</h4>
+          <div style="clear: left;"></div>
+          <button class="btn btn-primary" onclick="window.location.href = '#form'">Забронировать</button>
+          </div>
+    </div>
+    </div>
+    </div>
+    <!--Paket tours end-->
+    <!--Gids-->
+    <div class="gids">
+      <div class="container">
+        <h3 class="wow animate__animated animate__fadeInLeft">Наши гиды</h3>
+        <p class="wow info_gids animate__animated animate__fadeInLeft">Представляем наших лучших специалистов, которые сделают все,чтобы ваша поездка прошла удачно! Они всегда с вами на связии помогут вам с любым вопросом!</p>
+        <div class="wrapper">
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gid.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="stars">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/no_Star.svg" alt="">
+                </div>
+                <h5 class="card-title">Данияр Амангалиев, 29 лет</h5>
+                <p class="card-text">Специалист по работе с клиентами</p>
+                <p class="card-text">Образование: высшее</p>
+                <p class="card-text">Языки: казахский, русский</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gid.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="stars">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/no_Star.svg" alt="">
+                </div>
+                <h5 class="card-title">Данияр Амангалиев, 29 лет</h5>
+                <p class="card-text">Специалист по работе с клиентами</p>
+                <p class="card-text">Образование: высшее</p>
+                <p class="card-text">Языки: казахский, русский</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gid.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="stars">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/no_Star.svg" alt="">
+                </div>
+                <h5 class="card-title">Данияр Амангалиев, 29 лет</h5>
+                <p class="card-text">Специалист по работе с клиентами</p>
+                <p class="card-text">Образование: высшее</p>
+                <p class="card-text">Языки: казахский, русский</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gid.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="stars">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/no_Star.svg" alt="">
+                </div>
+                <h5 class="card-title">Данияр Амангалиев, 29 лет</h5>
+                <p class="card-text">Специалист по работе с клиентами</p>
+                <p class="card-text">Образование: высшее</p>
+                <p class="card-text">Языки: казахский, русский</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="img/gid.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="stars">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/Star.svg" alt="">
+                <img src="img/no_Star.svg" alt="">
+                </div>
+                <h5 class="card-title">Данияр Амангалиев, 29 лет</h5>
+                <p class="card-text">Специалист по работе с клиентами</p>
+                <p class="card-text">Образование: высшее</p>
+                <p class="card-text">Языки: казахский, русский</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Gids end-->
+    <!--Application soon-->
+    <div class="app">
+      <div class="container">
+        <div class="row">
+          <div class="col texts">
+            <div>
+              <h1 class="wow animate__animated animate__fadeInLeft">Скоро в твоем телефоне!</h1>
+              <p class="wow animate__animated animate__fadeInLeft">С нашим приложением подобрать тур и отправитьсяв путешествие станет еще удобнее и быстрее!Следи за новостями на нашем сайте и в инстаграм.</p>
+              <button class="wow animate__animated animate__fadeInLeft" onclick="window.location.href = 'https://instagram.com/bakka_travel';">Подписаться</button>
+            </div>
+          </div>
+          <div class="col iphones">
+            <img class="wow animate__animated animate__slideInUp" src="img/phone.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Application soon end-->
+    <!--Отзывы--><!--
+    <div class="container feedbacks">
+      <h3>Отзывы</h3>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+          <div class="row">
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</6>
+            </div>
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+          <div class="row">
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</6>
+            </div>
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+            <div class="col feedbacksmin">
+              <p>Хочу выразить благодарность компании BAKKA и отдельное спасибо турагенту Самал, которая отвечала абсолютно на все наши вопросы, наша семья в восторгеот поездки, будем советовать вас всем родственникам и друзьям!</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden button_next">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden button_next">Next</span>
+      </button>
+    </div>
+    </div>-->
+    <!--Отзывы end-->
+    <!--Новости-->
+    <!--
+      <div class="news">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Новости</h3>
+            </div>
+            <div class="col button_news">
+              <button class="btn justify-content-end btn-primary">Смотреть все</button>
+            </div>
+          </div>
+
+          <div class="row news_row">
+            <div class="col">
+              <div class="card" style="width: 100%;">
+                <img src="img/news1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Хадж 2023: Саудовская Аравия сняла возрастные ограничения</h5>
+                  <p class="card-text">Саудовская Аравия официально сняла все возрастные ограничения для желающих совершить Хадж в 2023 году...</p>
+                  <a href="#" class="btn btn-primary">Читать источник</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 100%;">
+                <img src="img/news2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Хадж 2023: Саудовская Аравия сняла возрастные ограничения</h5>
+                  <p class="card-text">Саудовская Аравия официально сняла все возрастные ограничения для желающих совершить Хадж в 2023 году...</p>
+                  <a href="#" class="btn btn-primary">Читать источник</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 100%;">
+                <img src="img/news3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Хадж 2023: Саудовская Аравия сняла возрастные ограничения</h5>
+                  <p class="card-text">Саудовская Аравия официально сняла все возрастные ограничения для желающих совершить Хадж в 2023 году...</p>
+                  <a href="#" class="btn btn-primary">Читать источник</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 100%;">
+                <img src="img/news4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Хадж 2023: Саудовская Аравия сняла возрастные ограничения</h5>
+                  <p class="card-text">Саудовская Аравия официально сняла все возрастные ограничения для желающих совершить Хадж в 2023 году...</p>
+                  <a href="#" class="btn btn-primary">Читать источник</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    -->
+    <!--Новости end-->
+    <!--question and answer-->
+    <div class="qua_ans">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text_in_qua">
+            <h2 class="wow animate__animated animate__fadeInLeft">Популярные вопросы и ответы на них</h2>
+          </div>
+          <div class="col-8 qua">
+            <div class="accordion wow animate__animated animate__fadeInRight" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Есть ли возрастные ограничения для поездкив Саудовскую Аравию?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">Саудовская Аравия официально сняла все возрастные ограничения для желающих совершить Хадж в 2023 году. Теперь Хадж могут совершить люди любого возраста, в том числе паломники старше 65 лет.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Могу ли я соединить два направления в один тур?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Даете ли вы скидки, если я приведу своего друга?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Какие документы нужны для оформления тура?                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Есть ли у вас страховка?                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--question and answer end-->
+    <!--Form-->
+    <div class="form" id="form">
+      <div class="container">
+        <div class="row">
+          <div class="col form1 wow animate__animated animate__fadeInLeft">
+            <h2>Остались вопросы?</h2>
+            <p>Оставьте заявку и мы скоро свяжемся с Вами!</p>
+            <form method="post" action="https://script.google.com/macros/s/AKfycbxPOuwcJU8Qg4mGfbmDXIRA6iqvyQSTqK0VcSL0wR5qEdWnJYrDvKntI6l7rAs7OHXs8A/exec" name="contact-form">
+            <input type="text" id="your-name" name="your-name" placeholder="Ваше имя">
+            <input type="text" id="your-number" name="your-number" placeholder="Номер телефона">
+            <input type="submit" id="submit">
+            </form>
+            <p>Нажимая на кнопку отправить, я даю согласие на обработку персональных данных</p>
+          </div>
+          <div class="col form2 wow animate__animated animate__fadeInRight">
+            <img src="img/img_form.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--Form end-->
+    <!--footer-->
+      <div class="footer"> 
+        <div class="container">
+           <div class="row">
+            <div class="col-5">
+              <img class="logo_for_footer" src="img/logo.png" alt="">
+              <p>© Copyright 2023 BAKKA TRAVEL</p>
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-6 texts_infoot">
+                  <h4>Компания</h4>
+                  <a href="#info_block">О нас</a><br>
+                  <a href="#tours">Пакет туров</a><br>
+                </div>
+                <div class="col-6 texts_infoot">
+                  <h4>Туры</h4>
+                  <a href="#tours">Умра</a><br>
+                  <a href="#tours">Хадж</a><br>
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="row map">
+              <div class="col-5">
+                <div class="row">
+                  <div class="col">
+                    <h4>Контакты</h4>
+                    <p><img src="img/phone_icon.svg" alt="">+7 (707) 362-11-56</p>
+                    <a href="https://www.instagram.com/bakka_travel/"><img class="soc_icons" src="img/insta_icon.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send/?phone=%2B77051851321&text&type=phone_number&app_absent=0"><img class="soc_icons" src="img/wp_icon.png" alt=""></a>
+                    <div class="text_office">
+                      <h4>Офис</h4>
+                      <p><img src="img/location_icon.svg" alt="">ул. Азат 20А</p>
+                      <button class="btn btn btn-primary" onclick="window.location.href = 'https://2gis.kz/almaty/firm/70000001025586524?m=76.845925%2C43.342585%2F16'">Открыть <img src="img/2GIS_logo.svg" alt=""></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-7">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.6514792818743!2d76.84332587623722!3d43.342481571118604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38831548fecbdfe1%3A0xd428d5b04bd64857!2z0JzQtdGH0LXRgtGMIOKAnNCQ0LvRjC3QkNC30LjQvOKAnQ!5e0!3m2!1sru!2skz!4v1697372336957!5m2!1sru!2skz" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+           </div>
+        </div>
+      </div>
+    <!--footer end-->
+  </body>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPOuwcJU8Qg4mGfbmDXIRA6iqvyQSTqK0VcSL0wR5qEdWnJYrDvKntI6l7rAs7OHXs8A/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+  </script>
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</html>

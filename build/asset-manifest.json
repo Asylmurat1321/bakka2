@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20532d34.css",
+    "main.js": "/static/js/main.958322b1.js",
+    "static/js/787.ed98c09b.chunk.js": "/static/js/787.ed98c09b.chunk.js",
+    "static/media/main_image.png": "/static/media/main_image.b33ea542e05803d5bc88.png",
+    "static/media/Tahoma KZ.ttf": "/static/media/Tahoma KZ.19be6e41429f846882d8.ttf",
+    "static/media/back_logo.svg": "/static/media/back_logo.f839b336170357fb4879.svg",
+    "index.html": "/index.html",
+    "main.20532d34.css.map": "/static/css/main.20532d34.css.map",
+    "main.958322b1.js.map": "/static/js/main.958322b1.js.map",
+    "787.ed98c09b.chunk.js.map": "/static/js/787.ed98c09b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20532d34.css",
+    "static/js/main.958322b1.js"
+  ]
+}

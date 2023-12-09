@@ -1,0 +1,544 @@
+@font-face {
+  font-family: avenirNextCyr;
+  src: url(/font_avenir_next/avenirnextcyr-medium.ttf);
+}
+@font-face {
+  font-family: avenirNextCyrlight;
+  src: url(/font_avenir_next/avenirnextcyr-light.ttf);
+}
+body {
+  margin: 0;
+  font-family: avenirNextCyr;
+}
+.main {
+  background-image: url(back_logo.svg);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: auto;
+  padding: 0px;
+}
+/*1 nav*/
+.sviaz {
+  font-size: small;
+}
+.local {
+  background-color: #22303A;
+  border-radius: 10px;
+  color: white;
+}
+.local:hover {
+  color: white;
+}
+/*1 nav*/
+/*1 block*/
+.main_block .container {
+  background-image: url(main_image.png);
+  padding: 61px;
+  text-align: center;
+  border-radius: 30px;
+}
+.main_block h1{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Montserrat;
+}
+.main_block h5 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-family: inter-black;
+  font-style: normal;
+}
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_block button {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+}
+.main_block button:hover {
+  background-color: #3A688A;
+  color: white;
+}
+
+.second_main_block img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.second_main_block .col {
+  padding: 0;
+  text-align: center;
+}
+/*1 block end*/
+/*2 block наши преимущество*/
+.first_part p {
+  font-family: avenirNextCyrlight;
+}
+.second_part p{
+  font-family:  avenirNextCyrlight;
+}
+.first_part {
+  text-align: center;
+  margin-top: 100px;
+}
+.first_part p {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.first_part h1 {
+  margin-top: 30px;
+}
+.second_part {
+  text-align: center;
+  margin-top: 60px;
+}
+.second_part .col {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+  color: black;
+  padding-top: 25px;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+.icon_info {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+.second_part h6 {
+  text-align: left;
+  margin-top: 20px;
+}
+.second_part p {
+  text-align: left;
+  margin-top: 10px;
+}
+.second_part .col {
+  text-align: left;
+  margin-left: 5px;
+}/*2 block наши преимущество end*/
+/*3 block наши туры*/
+.our_tours h3 {
+  margin-top: 40px;
+}
+#min_block1 {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-right: 25px;
+  width: 48%;
+  height: auto;
+}
+#min_block2 {
+  background-color: white;
+  margin-top: 5px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  width: 48%;
+  height: auto;
+}
+#min_blocks_12 {
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.blocks {
+  margin-top: 30px;
+}
+.big_logo {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+
+}
+.our_tours button {
+  background-color: #22303A;
+  color: white;
+  border: none;
+}
+.our_tours button:hover {
+  background-color: #22303A;
+  border: none;
+}
+/*3 block наши туры end*/
+/*4 block пакет туров*/
+#pakets {
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  border: 5px solid transparent;
+  border-image: 
+    linear-gradient(to left top, #adf2f7 10%, transparent 30%, transparent 70%, #adf2f7 90%);
+  border-image-slice: 1;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px;
+  padding: 10px;
+}
+#pakets h3 {
+  margin-top: 40px;
+}
+.text_left, .text_right {
+  float: left;
+  width: 50%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+.text_right {
+  float: right;
+}
+.paket_tours_text {
+  margin-top: 50px;
+}
+.paket_tours button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #22303A;
+}
+.paket_tours button:hover {
+  background-color:#22303A;
+}
+#pakets p {
+  text-align: right;
+}
+.hotel_stars {
+  float: right;
+}
+.price {
+  text-align: right;
+  font-size: 20px;
+}
+/*4 block пакет туров*/
+/*5 block гиды*/
+.gids h3 {
+  margin-top: 50px;
+}
+.info_gids {
+  padding-right: 500px;
+}
+.gids .card {
+  border-radius: 20px;
+}
+.stars {
+  margin-bottom: 10px;
+}
+.wrapper {
+  max-height: 770px;
+  display: flex;
+  overflow: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .item {
+  min-width: 150px;
+  height: 750px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 150px;
+}
+/*5 block гиды*/
+/*application soon*/
+.app .container{
+  background-color: #D6EDFF;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 40px;
+}
+.texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.texts h1,p {
+  width: 100%;
+  height: auto;
+}
+.app img {
+  margin-top: 55px;
+  width: 100%;
+  height: auto;
+}
+.app button {
+  background-color: #22303A;
+  color: white;
+  font-size: large;
+  border-radius: 15px;
+}
+/*application soon*/
+/*6 block отзывы*/
+.feedbacks .feedbacksmin{
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.button_next {
+  background-color: aqua;
+}/*6 block end отзывы*/
+/*7 block новости*/
+.news {
+  margin-top: 50px;
+}
+.button_news {
+  text-align: right;
+}
+.news_row .col {
+  margin-top: 25px;
+}
+.news_row h5 {
+  width: 100%;
+  font-size:medium;
+}
+.news_row p {
+  font-family: avenirNextCyrlight;
+}
+/*7 block end новости*/
+/*8 block вопросы и ответы*/
+.qua_ans {
+  margin-top: 50px;
+}
+.accordion {
+  width: 100%;
+}
+.text_in_qua h2 {
+  width: 100%;
+}
+/*8 block end вопросы и ответы*/
+/*9 block footer*/
+.logo_for_footer {
+  width: 150px;
+  height: 60px;
+  margin-top: 30px;
+}
+.footer {
+  background-color: white;
+}
+.texts_infoot {
+  margin-top: 30px;
+}
+.texts_infoot img {
+  width: 150px;
+  height: 50px;
+}
+.map {
+  margin-top: 50px;
+}
+.soc_icons {
+  width: 40px;
+  height: 40px;
+}
+.map button {
+  background-color: #22303A;
+}
+.text_office {
+  margin-top: 30px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+#map {
+  width: 100%;
+  height: auto;
+}
+/*9 block end footer*/
+/*пакет туров страница*/
+.paket_tours_page .col {
+  background-color: white;
+}
+.paket_tours_page h3 {
+  margin-top: 50px;
+}
+header {
+  background-color: white;
+}
+/*пакет туров страница end*/
+/*form*/
+.form img{
+  width: 100%;
+  height: auto;
+}
+.form1 {
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.form {
+  margin-top: 30px;
+}
+.form input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid black
+}
+#submit {
+  background-color: #22303A;
+  color: white;
+}
+/*form end*/
+
+/*Adaptive*/
+@media (max-width: 1400px) {
+  #big_logo {
+    display: none;
+    width: 0px;
+  }
+  .left_part {
+    width: 100%;
+  }
+  #min_block2 {
+    margin-left: 15px;
+  }
+  #pakets {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .form2 {
+    display: none;
+    width: 0px;
+  }
+  .form1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  #min_block2 {
+    margin-left: 5px;
+  }
+  .gids h3 {
+    text-align: center;
+  }
+  .info_gids {
+    text-align: center;
+    padding: 0px
+  }
+  #pakets h5 {
+    font-size: 15px;
+  }
+  .price {
+    font-size: 15px;
+  }
+}
+@media (max-width: 990px) {
+  #min_block1 {
+    margin-right: 0px;
+  }
+  #min_block2 {
+    margin-left: 15px;
+  }
+  .second_part .col {
+    padding-left: 15px;
+  }
+  #pakets {
+    width: 100%;
+  }
+  .paket_tours p{
+    font-size: 14px;
+  }
+  .paket_tours h5 {
+    font-size: 14px;
+  }
+  .paket_tours_text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+}
+@media (max-width: 770px) {
+  .first_part p {
+    padding: 0px;
+  }
+  .second_part .col {
+    padding-left: 10px;
+  }
+  .second_main_block {
+    display: none;
+  }
+  #pakets {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .form1 {
+    text-align: left;
+  }
+}
+@media (max-width: 500px) {
+  .iphones {
+    display: none;
+  }
+  .app .container {
+    padding-top: 50px;
+  }
+  .app .container {
+    padding-bottom: 50px;
+  }
+  .app .container {
+    text-align: center;
+  }
+  .text_left, .text_right {
+    font-size: large;
+  }
+}
+@media (max-width: 550px) {
+  #submit {
+    margin-top: 10px;
+  }
+}
+/*Adaptive end*/
+
+/*Animation*/
+#main_image {
+  transition: 1s;
+}
+#main_image:hover {
+  transform: scale(1.1);
+  transition: 1s; 
+}
+.with-border-gradient {
+  transition: 1s;
+}
+.with-border-gradient:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.wrapper .card {
+  transition: 1s;
+}
+.wrapper .card:hover {
+  transform: scale(1.1);
+  transition: 1s; 
+}
+/*Animation end*/
